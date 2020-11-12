@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=PT+Sans&display=swap" rel="stylesheet')
+
+h1 {
+	font-family: 'Crimson Text', serif;
+}
+
+p {
+	font-family: 'PT Sans', sans-serif;
+}
