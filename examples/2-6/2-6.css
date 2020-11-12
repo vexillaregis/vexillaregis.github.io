@@ -1,0 +1,18 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+p {
+	color: black;
+	/*padding: 5px;*/
+	/*padding-bottom: 5px;*/
+	/*padding: 3px 10px 20px 0;*/
+	/*padding: top right bottom left;*/
+	/*padding: 10px 0;*/
+	/*padding: top&bottom right%left;*/
+	padding: 5px 0 10px;
+	/*padding: top right bottom x(left=right);*/
+	margin: 5px 0;
+	/*margin: top&bottom right%left;*/
+}
