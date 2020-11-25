@@ -83,3 +83,9 @@ section#banner > nav > div:hover {
 	background-color: #1c1c1c;
 	border-bottom: 3px solid orange;
 }
+
+section#maincontent {
+	text-align: center;
+	font-size: 15vh;
+	font-weight: bolder;
+}
