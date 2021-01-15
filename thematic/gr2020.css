@@ -1,0 +1,117 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+}
+
+header {
+	background-color: #f2f2f2;
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+}
+
+.dropdown {
+	padding: 5px;
+	position: relative;
+	display: inline-block;
+}
+
+.hamburger {
+	background-image: url("img/hamburger.png");
+	background-repeat: no-repeat;
+	background-size: 53px;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	border: none;
+}
+
+.dropdown-content {
+	display: none;
+  	position: absolute;
+  	background-color: #f1f1f1;
+  	min-width: 160px;
+  	box-shadow: 5px 8px 16px 0px rgba(0,0,0,0.2);
+  	z-index: 1;
+  	font-family: 'Merriweather', sans-serif;
+}
+
+.dropdown-content > a {
+  	color: black;
+  	padding: 15px;
+  	text-decoration: none;
+  	display: block;
+}
+
+.dropdown-content > a:hover {background-color: #ddd;}
+
+.dropdown:hover > .dropdown-content {display: block;}
+
+.kole {
+	padding: 6px 5px;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 47px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+}
+
+.kole > a {
+	text-decoration: none; 
+	color: black;
+}
+
+.cover {
+	width: 1536px;
+	height: 60vh;
+	background-image: url("img/g1.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	text-align: center;
+	line-height: 60vh;
+	font-size: 75px;
+	color: white;
+	font-weight: bold;
+	font-family: 'Merriweather', serif;
+}
+
+.dome {
+	padding: 10vh 0 0 188PX;
+}
+
+.charlottenburg {
+	padding: 10vh 0 0 188px;
+}
+
+h1 {
+	padding: 20px 188px;
+	font-size: 45px;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+}
+
+p {
+	padding: 5px 188px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+}
+
+footer {
+	padding: 10px 0;
+	background-color: #f2f2f2;
+	text-align: center;
+	height: 10vh;
+	line-height: 10vh;
+	font-family: 'Roboto', sans-serif;
+	font-size: 10px;
+}
