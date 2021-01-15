@@ -1,85 +1,96 @@
 * {
-	margin: 0 0 1px 0;
+	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 
 html {
-	height: 100%;
 	width: 100%;
+	height: 100%;
 	overflow-x: hidden;
-	overflow-y: auto;
 }
 
 body {
-	background: #000;
-    color: #fff;
-    font-family: Arial,Helvetica,sans-serif;
-    font-size: 12px;
+	background-color: black;
+	font-family: 'Arial,Helvetica' ,sans-serif;
 }
 
-section#logo {
-	background-color: #292929; 
-	height: 8.5vh; 
+header {
+	padding: 1vh 0;
+	width: 1536px;
+	height: 10vh;
+	background-color: #292929;
+	display: flex;
+	flex-direction: row;
 }
 
-div#logo1 {
-	padding: 10px 0 10px 100px;
-	font-size: 5vh;
+.logo1 > a {
+	text-decoration: none;
+	color: white;
+}
+
+.logo2 > a {
+	text-decoration: none;
+	color: black;
+}
+
+.logo1 {
+	padding: 0 100px;
+	font-size: 35px;
 	font-weight: bold;
 	color: white;
-	width: 10%;
+	width: 200px;
+	height: 8vh;
+	text-align: center;
+	line-height: 8vh;
 }
 
-div#logo2 {
-	padding: 2px 5px;
-	font-size: 5vh;
+.logo2 {
+	padding: 0;
+	font-size: 35px;
 	font-weight: bold;
 	color: black;
-	background-color: orange;
-	position: absolute;
-	top: 1vh;
-	left: 28vh;
-	width: 18vh;
-}
-
-div#searchbar {
-	height: 10vh; 
-	width: 100vw;
-}
-
-.search	{
-	padding: 4px 5px;
-	width: 50vw;
-	height: 30px;
-	background-color: #383838;
-	font-size: 15px;
-	font-style: italic;
-	font-weight: bold;
-	color: #808080;
-	position: absolute;
-	top: 20px;
-	left: 370px;
-}
-
-section#banner {
-	background-color: #292929; 
-	height: 6vh; 
-}
-
-section#banner > nav > div {
-	display: inline-block;
-	padding:  2.3vh 2.5vh;
-	height: 6vh;
-	width: 30vh;
+	width: 100px;
+	height: 8vh;
 	text-align: center;
-	font-size: 1.8vh;
-	font-weight: bolder;
-	position: relative;
-	left: 13vh;
+	line-height: 8vh;
+	background-color: orange;
 }
 
-section#banner > nav > div:hover {
+nav {
+	margin: 2px 0 0 0;
+	padding: 0;
+	width: 1536px;
+	height: 6vh;
+	background-color: #292929;
+	display: flex;
+	flex-direction: row;
+}
+
+nav > div {
+	width: 33.3333%;
+	text-align: center;
+	line-height: 6vh;
+	color: white;
+	font-weight: bolder;
+}
+
+nav > div:hover {
 	background-color: #1c1c1c;
 	border-bottom: 3px solid orange;
+}
+
+nav > div > a {
+	text-decoration: none;
+	color: white;
+}
+
+.photo {
+	padding: 1vh 568px;
+}
+section {
+	padding: 0 300px;
+	color: white;
+	font-size: 25px;
+	text-align: center;
 }

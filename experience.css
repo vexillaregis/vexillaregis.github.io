@@ -85,19 +85,9 @@ nav > div > a {
 	color: white;
 }
 
-.photo {
-	padding: 1vh 188px;
-}
-
 section {
-	padding: 1vh 188px;
-	display: flex;
-	flex-direction: row;
+	padding: 5vh 50px;
 	color: white;
-}
-
-p {
-	width: 50%;
-	font-size: 18px;
-	font-family: 'Merriweather', serif;
+	font-size: 25px;
+	text-align: center;
 }
